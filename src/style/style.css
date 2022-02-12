@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Prompt:wght@100;200;300;400;500;600;700;800;900&family=Quintessential&family=Roboto:wght@100;300;400;500;700;900&family=Zen+Kurenaido&display=swap');
+:root {
+    /* Global Theme */ 
+    /* Light Theme */
+    --bgLight: #f2e3d6;
+    --contLight: #b3b6a9;
+    --btnLight: #1c7767;
+    --textLight: #3e4d5a;
+    --textLight-alt: #686c77;
+
+    /* Dark Theme */
+    --bgDark : #292e3c;
+    --contDark: #3e4d5a;
+    --btnDark: #50c0aa;
+    --textDark: #e7e8e6;
+    --textDark-alt: #d0cecc9f;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: var(--bodyFont);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+input,
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 968px;
+    min-width: 420px;
+}
